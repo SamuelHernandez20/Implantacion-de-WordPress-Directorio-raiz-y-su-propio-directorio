@@ -54,5 +54,6 @@ sed -i "s/username_here/$WORDPRESS_DB_USER/" /var/www/html/wp-config.php
 sed -i "s/password_here/$WORDPRESS_DB_PASSWORD/" /var/www/html/wp-config.php
 sed -i "s/localhost/$WORDPRESS_DB_HOST/" /var/www/html/wp-config.php
 
+# Cambiamos propietario y grupo del dicrectorio /var/www/html
 
-
+chown -R www-data:www-data /var/www/html/
