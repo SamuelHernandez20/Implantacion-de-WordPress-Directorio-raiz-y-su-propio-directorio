@@ -64,4 +64,5 @@ a2enmod rewrite
 
 cp /home/ubuntu/Practica-01-06/htaccess/.htaccess /var/www/html/
 
+# reiniciar apache
 sudo systemctl restart apache2
