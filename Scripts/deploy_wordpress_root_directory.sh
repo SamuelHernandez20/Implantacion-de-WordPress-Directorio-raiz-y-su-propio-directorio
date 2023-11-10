@@ -57,3 +57,14 @@ sed -i "s/localhost/$WORDPRESS_DB_HOST/" /var/www/html/wp-config.php
 # Cambiamos propietario y grupo del dicrectorio /var/www/html
 
 chown -R www-data:www-data /var/www/html/
+
+# Reescribir 
+
+a2enmod rewrite
+
+# Copiar a /var/www/html/
+
+cp /home/ubuntu/Practica-01-06/htaccess/.htaccess /var/www/html/
+
+# reiniciar apache
+sudo systemctl restart apache2

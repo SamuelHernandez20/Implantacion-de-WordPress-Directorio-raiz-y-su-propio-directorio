@@ -1,12 +1,12 @@
 #!/bin/bash
-
+set -ex
 # Este script es para instalar wordpress en su propio directorio
 
 # Incluimos variables del .env
 
 source .env
 
-# Bajamos el codigo fuente:
+# Bajamos el codigo fuente:Primeros
 
 wget http://wordpress.org/latest.tar.gz -P /tmp
 
@@ -66,3 +66,4 @@ cp /home/ubuntu/Practica-01-06/htaccess/.htaccess /var/www/html/
 
 # reiniciar apache
 sudo systemctl restart apache2
+
