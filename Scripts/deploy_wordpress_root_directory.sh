@@ -17,7 +17,7 @@ source .env
 
 # Eliminar descargar previas codigo fuente para que no cree mas .zip
 
-rm -rf /tmp/latest.zip
+rm -rf /tmp/latest.tar.gz
 
 # Bajamos el codigo fuente:
 
