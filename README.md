@@ -1,4 +1,3 @@
-# Practica-01-06
 ### Implantación de WordPress | Directorio raíz y su propio directorio
 
 Para esta práctica se llevará a cabo la implanatación de Wordpress tanto en el directorio raíz de **Apache** `/var/www/html`, como en su propi directorio `/var/www/html/wordpress`.
